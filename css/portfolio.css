@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#wrap {
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 3rem;
+  text-align: right;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  color: #fff;
+}
+
+header > span {
+  cursor: pointer;
+}
+
+.fullScreen {
+  scroll-snap-align: center;
+  min-width: 100%;
+  height: 100vh;
+  background-color: #ffb6ea;
+}
+
+#smallCircle {
+  position: absolute;
+  width: 32rem;
+  height: 32rem;
+  top: -10rem;
+  left: -16rem;
+  background-color: #fff;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+#bigCircle {
+  position: absolute;
+  width: 46rem;
+  height: 46rem;
+  bottom: 0;
+  right: -18rem;
+  background-color: #fff;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.fullflex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.fullFlexAlign {
+  display: flex;
+  align-items: center;
+}
+
+.flexCenter {
+  justify-content: center;
+  align-items: center;
+}
+
+.fullflex > div {
+  margin-left: 4rem;
+}
+
+.fullflex > div > div {
+  margin-bottom: 1rem;
+}
+
+#porjectBox {
+  width: 100%;
+  height: 90vh;
+  background-color: #fff;
+}
+
+#blurHeader {
+  z-index: 100;
+  width: 100%;
+  height: 3rem;
+  background-color: #fff;
+  opacity: 0.4;
+  position: fixed;
+  display: none;
+}
+
+#projectBox {
+  width: 100%;
+  height: 90vh;
+  background-color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.contactMe {
+  height: 70%;
+}
+
+.footer {
+  height: 30%;
+  background-color: #fff;
+}
+
+.dark {
+  background-color: #000;
+}
+
+.dark2 {
+  background-color: #2f2f2f;
+}
